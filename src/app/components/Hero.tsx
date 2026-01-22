@@ -85,7 +85,7 @@ export function Hero({ lang }: HeroProps) {
           <div className="flex-1 relative w-full max-w-lg lg:max-w-none">
             <div className="relative aspect-[4/5] rounded-[2.5rem] overflow-hidden shadow-2xl bg-gray-100">
               <img 
-                src="https://images.unsplash.com/photo-1762625570087-6d98fca29531?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjbGVhbiUyMG1lZGljYWwlMjBjbGluaWMlMjByZWNlcHRpb24lMjBtb2Rlcm58ZW58MXx8fHwxNzY5MDU3MTgyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" 
+                src="src\app\components\Images\MedicalCenterInterior.png" 
                 alt="Modern Medical Center Interior" 
                 className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
               />

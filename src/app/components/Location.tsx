@@ -44,7 +44,7 @@ export function Location({ lang }: LocationProps) {
                   <h3 className="font-semibold text-gray-500 text-sm uppercase tracking-wider mb-2">
                     {lang === 'EN' ? 'Address' : 'Dirección'}
                   </h3>
-                  <p className="text-2xl font-bold text-gray-900 leading-tight max-w-sm">
+                  <p className="text-2xl text-gray-900 leading-tight max-w-sm">
                     8300 SW 8th St #107,
                     <br />
                     Miami, FL 33144

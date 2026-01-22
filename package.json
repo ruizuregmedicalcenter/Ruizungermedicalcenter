@@ -4,8 +4,12 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
+    "dev": "vite",
     "build": "vite build",
-    "dev": "vite"
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",

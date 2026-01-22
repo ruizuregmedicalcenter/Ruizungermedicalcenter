@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { JSX as ReactJSX } from 'react';
 import { Award, Users, Stethoscope, CheckCircle2 } from 'lucide-react';
 
 interface AboutProps {
@@ -15,8 +15,7 @@ export function About({ lang }: AboutProps) {
           <div className="flex-1 relative">
             <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1659353887488-b3c443982a57?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoaXNwYW5pYyUyMG1hbGUlMjBkb2N0b3IlMjBwb3J0cmFpdCUyMG1lZGljYWwlMjBvZmZpY2UlMjBmcmllbmRseXxlbnwxfHx8fDE3NjkwOTIwNzR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" 
-                alt="Dr. Ruiz Unger" 
+                src="src\app\components\Images\Dr_Image.png" 
                 className="w-full h-auto object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-60"></div>
