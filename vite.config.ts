@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: "/Medicalcenterwebsite/", 
+  base: "/Ruizungermedicalcenter/",
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),

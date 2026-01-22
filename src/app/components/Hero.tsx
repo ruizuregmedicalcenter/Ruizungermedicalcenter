@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, Star, Shield, Clock, Phone } from 'lucide-react';
+import interiorImage from './Images/MedicalCenterInterior.png';
 
 interface HeroProps {
   lang: 'EN' | 'ES';
@@ -85,10 +86,9 @@ export function Hero({ lang }: HeroProps) {
           <div className="flex-1 relative w-full max-w-lg lg:max-w-none">
             <div className="relative aspect-[4/5] rounded-[2.5rem] overflow-hidden shadow-2xl bg-gray-100">
               <img 
-                src="src\app\components\Images\MedicalCenterInterior.png" 
-                alt="Modern Medical Center Interior" 
-                className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
-              />
+                    src={interiorImage}
+                    alt="Modern Medical Center Interior" 
+                    className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"/>
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
               
               {/* Floating Card */}

@@ -1,5 +1,6 @@
 import React, { JSX as ReactJSX } from 'react';
 import { Award, Users, Stethoscope, CheckCircle2 } from 'lucide-react';
+import doctorImage from './Images/Dr_Image.png';
 
 interface AboutProps {
   lang: 'EN' | 'ES';
@@ -15,9 +16,9 @@ export function About({ lang }: AboutProps) {
           <div className="flex-1 relative">
             <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl">
               <img 
-                src="src\app\components\Images\Dr_Image.png" 
-                className="w-full h-auto object-cover"
-              />
+                    src={doctorImage} 
+                    alt="Doctor"
+                    className="w-full h-auto object-cover"/>
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-60"></div>
               
               <div className="absolute bottom-8 left-8 text-white">
